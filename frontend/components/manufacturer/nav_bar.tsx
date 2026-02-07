@@ -5,6 +5,7 @@ import Anchor from "@/components/retailer/anchor";
 import { logout } from "@/utils/api";
 
 export const NAVLINKS = [
+  { title: "Subscriptions", href: "/manufacturer/subscriptions" },
   { title: "Dashboard", href: "/manufacturer" },
   { title: "Accounting", href: "/manufacturer/accounting" },
   { title: "StockCount", href: "/manufacturer/stockCount" },
@@ -71,13 +72,13 @@ export function Navbar() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect width="100" height="100" rx="20" fill="#3B82F6"/>
+                <rect width="100" height="100" rx="20" fill="#3B82F6" />
                 <path
                   d="M25 30h50v40H25V30zm10 10v20h30V40H35z"
                   fill="white"
                 />
-                <circle cx="30" cy="45" r="3" fill="#3B82F6"/>
-                <circle cx="70" cy="45" r="3" fill="#3B82F6"/>
+                <circle cx="30" cy="45" r="3" fill="#3B82F6" />
+                <circle cx="70" cy="45" r="3" fill="#3B82F6" />
                 <path
                   d="M40 50h20v5H40v-5z"
                   fill="#3B82F6"
